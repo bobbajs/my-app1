@@ -1,0 +1,26 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div style="text-align:center">
+  <h1>
+    Simple app to reproduce UT issue
+  </h1>
+</div>
+
+  <a (click)="openModal()" translate>Click me to open modal!</a>
+
+
+<div class="large reveal animated fadeIn" id="{{ModalId}}" data-reveal>
+  <div class="grid-container grid-container-padded">
+    <form name="forgotPasswordForm" #forgotPasswordForm="ngForm" >
+      <div class="grid-x grid-margin-x ">
+        <div class="small-12 cell" >
+          <h2>I am a modal!</h2>
+          <hr>
+          <button class="close-button" data-close aria-label="Close reveal" type="button">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+      </div>
+    </form>
+  </div>
+</div>
+
